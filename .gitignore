@@ -1,0 +1,12 @@
+# Arquivos temporarios
+*.tmp
+
+
+# Arquivos de compilaçao 
+*.exe
+
+# Diretorio de dependencias
+node_modules/
+
+# Extesao do arquivo
+conexao.py
