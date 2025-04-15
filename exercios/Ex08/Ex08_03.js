@@ -1,5 +1,7 @@
-//Crie uma lista com os meses e imprima apenas os meses que começam com "J".
-let listameses = ('janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro','dezembro')
-for(meses of listameses){
-    console.log(listameses)
-}
+const prompt = require('prompt-sync')()
+let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto","Setembro", "Outubro", "Novembro", "Dezembro"]
+    let mes2 = "J"
+    for(let mes1 of meses){
+    if(mes1.includes(mes2))
+        console.log(mes1)
+    }

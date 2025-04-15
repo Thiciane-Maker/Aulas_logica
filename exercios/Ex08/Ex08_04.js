@@ -2,7 +2,7 @@
 //palavra em maiúsculas
 
 let palavras = 'gato, cachorro, passaro, peixe'
-let listapalavras = palavras.split(',')
+let listapalavras = palavras.toUpperCase(',')
 for(let palavras of listapalavras){
     console.log(palavras)
 }
