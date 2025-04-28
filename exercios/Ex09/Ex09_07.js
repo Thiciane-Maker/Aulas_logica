@@ -1,36 +1,32 @@
-function Soma(n1, n2) {
-    let resultado = n1 + n2;
-    console.log(resultado);
-}
+function calcular(num1, num2, operador){
+    if(operador === '+'){
+        console.log(`${num1} + ${num2} = ${num1 + num2}`)
+    }
+    else if (operador === '-'){
+        console.log(`${num1} - ${num2} = ${num1 - num2}`)
 
-function Subtracao(n1, n2) {
-    let resultado = n1 - n2;
-    console.log(resultado);
-}
+    
+    }
+    else if (operador === '*'){
+        console.log(`${num1} * ${num2} = ${num1 * num2}`)
 
-function Multiplicacao(n1, n2) {
-    let resultado = n1 * n2;
-    console.log(resultado);
-}
+    }
+    else if (operador === '/'){
+        console.log(`${num1} / ${num2} = ${num1 / num2}`)
 
-function Divisao(n1, n2) {
-    if (n2/ 0) {
-        console.log(resultado);
-    } else {
-        let resultado = n1 / n2;
-        console.log(resultado);
+    }
+    else if (operador === '**'){
+        console.log(`${num1} ** ${num2} = ${num1 ** num2}`)
+    }
+    else{
+        console.log('operador invalido');
+        return;
     }
 }
 
-function Potencia(n1, n2) {
-    let resultado = n1 ** n2;
-    console.log(resultado);
-}
-
-
-Soma(5, 6);          
-Subtracao(8, 9);     
-Multiplicacao(11, 67); 
-Divisao(10, 2);       
-Potencia(2, 3);       
-Divisao(7, 0);        
+calcular(2,4, '+')
+calcular(2,4, '-')
+calcular(2,4, '*')
+calcular(2,4, '/')
+calcular(2,4, '**')
+calcular(2,4, ';')

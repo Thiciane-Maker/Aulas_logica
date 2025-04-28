@@ -10,3 +10,4 @@ console.log(
     "azul", 
     "amarelo")
 lista()
+
