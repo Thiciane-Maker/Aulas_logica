@@ -9,4 +9,4 @@ if (idade<=10){
     console.log('aduto');
 }else{
     console.log('idoso');
-} c
+} 
